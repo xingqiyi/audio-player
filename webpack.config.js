@@ -19,7 +19,18 @@ module.exports = {
         }, {
             test: /\.css$/,
             use: ["style-loader", "css-loader"]
-        }]
+        }, {
+            test: /\.(mp3|wav|amr)$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {},
+                }
+            ]
+        }
+
+
+        ]
     },
     plugins: [htmlWebpackPlugin],
     resolve: {

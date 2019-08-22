@@ -14,7 +14,7 @@ const stopHandler = (amr) => {
 
 const MyComponent = ({ src }) => {
 
-
+    let audio_panel = '';
     const fileExtension = src.split('.').pop().toLowerCase();
 
     if (fileExtension === 'amr') {
@@ -24,22 +24,23 @@ const MyComponent = ({ src }) => {
             console.log('播放完毕');
         })
 
-        return (
+        audio_panel = (
             <div>
-                <h1>ello from my component.</h1>
-                <h4>{src}</h4>
                 <input type='button' onClick={playHandler.bind(this, amr, player)} value='播放'></input>
-                <input type='button' onClick={playHandler.bind(this, amr)} value='停止'></input>
+                <input type='button' onClick={stopHandler.bind(this, amr)} value='停止'></input>
             </div>
 
 
         )
     } else if (['mp3', 'wav', 'ogg'].includes(fileExtension)) {
-        return (
+        audio_panel = (
             <audio src={src} controls="controls"> </audio>
-
         )
+    } else {
+        audio_panel = ''
     }
+
+    return audio_panel;
 };
 
 export default MyComponent;
