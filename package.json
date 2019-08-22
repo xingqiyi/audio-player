@@ -35,7 +35,5 @@
   "dependencies": {
     "benz-amr-recorder": "^1.0.17",
     "file-loader": "^4.2.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
   }
 }
