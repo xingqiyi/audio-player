@@ -49,18 +49,14 @@ const AudioPlayer = ({ src }) => {
                 <input type='button' onClick={howlPtopHandler.bind(this, sound)} value='停止'></input>
             </div>
         )
-    }
-
-    else if (['mp3', 'wav', 'ogg',].includes(fileExtension)) {
+    } else if (['mp3', 'wav', 'ogg',].includes(fileExtension)) {
         audio_panel = (
             <audio src={src} controls="controls"> </audio>
         )
-    }
-
-
-    else {
-        console.error(`不支持格式${fileExtension}`)
-        audio_panel = ''
+    } else {
+        const errorLog = `不支持格式${fileExtension}`;
+        console.error(errorLog)
+        audio_panel = (<span>{errorLog}</span>)
     }
 
     return audio_panel;

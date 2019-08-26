@@ -6,7 +6,6 @@ import amr_url from './media/a.amr';
 
 import aac_url from './media/aac.aac';
 
-
 import mp3_url from './media/m.mp3';
 import wav_url from './media/w.wav';
 
@@ -22,7 +21,6 @@ const App = () => (
             <h4>aac:</h4>
             <AudioPlayer src={aac_url} />
         </div>
-
 
         <div>
             <h4>mp3:</h4>
