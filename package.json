@@ -2,6 +2,19 @@
   "name": "react-multiple-audio-player",
   "version": "1.2.0",
   "description": "",
+  "keywords": [
+    "amr",
+    "aac",
+    "mpeg",
+    "audio",
+    "player",
+    "react",
+    "react-component",
+    "component",
+    "components",
+    "ui",
+    "frontend"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -23,6 +36,8 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
