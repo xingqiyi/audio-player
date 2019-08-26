@@ -7,7 +7,8 @@
 `yarn add this-is-test-component`
 
 ### Usage example 使用示例
-https://xingqiyi.github.io/audio-player/
+
+>https://xingqiyi.github.io/audio-player/
 
 
 ```jsx
