@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "benz-amr-recorder": "^1.0.17",
-    "howler": "^2.1.2",
+    "howler": "^2.1.2"
   }
 }
