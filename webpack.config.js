@@ -20,7 +20,7 @@ module.exports = {
             test: /\.css$/,
             use: ["style-loader", "css-loader"]
         }, {
-            test: /\.(mp3|wav|amr)$/,
+            test: /\.(mp3|wav|amr|aac|wma)$/,
             use: [
                 {
                     loader: 'file-loader',
