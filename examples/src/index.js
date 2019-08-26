@@ -24,9 +24,6 @@ const App = () => (
         </div>
 
 
-
-
-
         <div>
             <h4>mp3:</h4>
             <AudioPlayer src={mp3_url} />
