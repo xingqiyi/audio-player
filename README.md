@@ -1,7 +1,8 @@
+
+
+
+## html5 audio player 音频播放器(https://www.npmjs.com/package/react-multiple-audio-player)
 > https://www.npmjs.com/package/react-multiple-audio-player
-
-
-## html5 audio player 音频播放器
 
 ### supported audio format 支持的音频格式
 
